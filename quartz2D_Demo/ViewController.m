@@ -7,11 +7,12 @@
 //
 //http://www.jianshu.com/p/98929b9aca25
 //iOS利用`quartz2D`绘出tabBar的背景图片
+//http://www.jianshu.com/p/6d70bb688023
 
 #import "ViewController.h"
-
+#import "Quartz2DView.h"
 @interface ViewController ()
-
+@property(strong,nonatomic)Quartz2DView *qzView;
 @end
 
 @implementation ViewController
@@ -19,11 +20,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    [self configTabBars];
+//    [self configTabBars];
 
+    [self qzViewText];
+}
+#pragma mark   - draw Rect
+-(void)qzViewText
+{
+    self.qzView=[[Quartz2DView alloc] initWithFrame:self.view.bounds];
+    self.qzView.backgroundColor =[UIColor whiteColor];
+    [self.view addSubview:self.qzView];
 }
 
-
+#pragma mark -quartz2D画出图片
 -(void)configTabBars{
     
     CGSize tabSize = CGSizeMake(100, 100);

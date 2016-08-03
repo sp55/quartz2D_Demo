@@ -15,6 +15,7 @@
 		84A2A16A1D0E888C0058FF6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A2A1681D0E888C0058FF6D /* LaunchScreen.storyboard */; };
 		84A2A1751D0E888C0058FF6D /* quartz2D_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2A1741D0E888C0058FF6D /* quartz2D_DemoTests.m */; };
 		84A2A1801D0E888C0058FF6D /* quartz2D_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2A17F1D0E888C0058FF6D /* quartz2D_DemoUITests.m */; };
+		84B23F1E1D51BFA60021E27B /* Quartz2DView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B23F1D1D51BFA60021E27B /* Quartz2DView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		84A2A17B1D0E888C0058FF6D /* quartz2D_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quartz2D_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A2A17F1D0E888C0058FF6D /* quartz2D_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = quartz2D_DemoUITests.m; sourceTree = "<group>"; };
 		84A2A1811D0E888C0058FF6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B23F1C1D51BFA60021E27B /* Quartz2DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quartz2DView.h; sourceTree = "<group>"; };
+		84B23F1D1D51BFA60021E27B /* Quartz2DView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quartz2DView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				84A2A15E1D0E888C0058FF6D /* AppDelegate.m */,
 				84A2A1601D0E888C0058FF6D /* ViewController.h */,
 				84A2A1611D0E888C0058FF6D /* ViewController.m */,
+				84B23F1C1D51BFA60021E27B /* Quartz2DView.h */,
+				84B23F1D1D51BFA60021E27B /* Quartz2DView.m */,
 				84A2A1631D0E888C0058FF6D /* Main.storyboard */,
 				84A2A1661D0E888C0058FF6D /* Assets.xcassets */,
 				84A2A1681D0E888C0058FF6D /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84A2A1621D0E888C0058FF6D /* ViewController.m in Sources */,
+				84B23F1E1D51BFA60021E27B /* Quartz2DView.m in Sources */,
 				84A2A15F1D0E888C0058FF6D /* AppDelegate.m in Sources */,
 				84A2A15C1D0E888C0058FF6D /* main.m in Sources */,
 			);
@@ -499,6 +505,7 @@
 				84A2A1861D0E888C0058FF6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84A2A1871D0E888C0058FF6D /* Build configuration list for PBXNativeTarget "quartz2D_DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +514,7 @@
 				84A2A1891D0E888C0058FF6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84A2A18A1D0E888C0058FF6D /* Build configuration list for PBXNativeTarget "quartz2D_DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				84A2A18C1D0E888C0058FF6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
